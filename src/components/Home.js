@@ -10,8 +10,11 @@ import NoImage from '../images/no_image.jpg';
 
 const Home = () => {
     const [state, setState] = useState();
+    const [loading, setLoading] = useState(false);
+    const [error, setError] = useState(false);
 
 
-    
     return <div> Home page </div>
-}
+};
+
+export default Home;
